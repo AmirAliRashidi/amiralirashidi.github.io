@@ -1,73 +1,73 @@
 [
     {
         "name": "HOT DRINK",
-        "image": "../../../assets/img/coffee-cup.png",
+        "image": "assets/img/coffee-cup.png",
         "items": [
             {
                 "name": "Coffee",
                 "price": 1.2,
                 "is_enable": true,
-                "image": "../../../assets/img/cocktail-shot.png"
+                "image": "assets/img/cocktail-shot.png"
             },
             {
                 "name": "Latte",
                 "price": 1.5,
                 "is_enable": true,
-                "image": "../../../assets/img/latte.png"
+                "image": "assets/img/latte.png"
             },
             {
                 "name": "Turkish Coffee",
                 "price": 1,
                 "is_enable": true,
-                "image": "../../../assets/img/turkish-coffee.png"
+                "image": "assets/img/turkish-coffee.png"
             },
             {
                 "name": "Hot Chocolate",
                 "price": 1.2,
                 "is_enable": true,
-                "image": "../../../assets/img/coffee.png"
+                "image": "assets/img/coffee.png"
             },
             {
                 "name": "Tea",
                 "price": 0.8,
                 "is_enable": true,
-                "image": "../../../assets/img/tea.png"
+                "image": "assets/img/tea.png"
             }
         ]
     },
     {
         "name": "COLD DRINK",
-        "image": "../../../assets/img/cocktail.png",
+        "image": "assets/img/cocktail.png",
         "items": [
             {
                 "name": "Lemonade",
                 "price": 1.2,
                 "is_enable": true,
-                "image": "../../../assets/img/cocktail.png"
+                "image": "assets/img/cocktail.png"
             },
             {
                 "name": "Ice Latte",
                 "price": 1.5,
                 "is_enable": true,
-                "image": "../../../assets/img/iced-coffee.png"
+                "image": "assets/img/iced-coffee.png"
             },
             {
                 "name": "Cold Brew",
                 "price": 1.2,
                 "is_enable": false,
-                "image": "../../../assets/img/brewing.png"
+                "image": "assets/img/brewing.png"
             },
             {
                 "name": "Margarita",
                 "price": 1.8,
                 "is_enable": true,
-                "image": "../../../assets/img/margaritta.png"
+                "image": "assets/img/margaritta.png"
             }
         ]
     },
     {
         "name": "Whit BreakFast",
-        "image": "../../../assets/img/orange-juice.png",
+        "image": "assets/img/orange-juice.png",
         "items": [
             {
                 "name": "Orange Juice",
@@ -83,25 +83,25 @@
     },
     {
         "name": "BreakFast",
-        "image": "../../../assets/img/breakfast.png",
+        "image": "assets/img/breakfast.png",
         "items": [
             {
                 "name": "Omlette",
                 "price": 3,
-                "image": "../../../assets/img/spanisches-omlett.png",
+                "image": "assets/img/spanisches-omlett.png",
                 "is_enable": true
             }
         ]
     },
     {
         "name": "Dinner",
-        "image": "../../../assets/img/hamburger.png",
+        "image": "assets/img/hamburger.png",
         "items": [
             {
                 "name": "hamburger",
                 "description": "Ground Beef, tomato, onion",
                 "price": 5,
-                "image": "../../../assets/img/hamburger.png",
+                "image": "assets/img/hamburger.png",
                 "is_enable": true
             }
         ]
