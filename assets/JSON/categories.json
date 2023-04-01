@@ -1,0 +1,39 @@
+[
+    {
+        "category_name": "thechnology",
+        "items": [
+            "laptop",
+            "television",
+            "camera",
+            "computer",
+            "modem",
+            "usb",
+            "hard-drive"
+        ]
+    },
+    {
+        "category_name": "mobile",
+        "items": [
+            "apple",
+            "samsung",
+            "black berry",
+            "Huawi",
+            "shiaomi",
+            "Nokia",
+            "LG"
+        ]
+    },
+    {
+        "category_name": "clothes",
+        "items": [
+            "T-shirt",
+            "pants",
+            "shoes",
+            "jacket",
+            "shirt",
+            "socks",
+            "sweashirt",
+            "A-shirt"
+        ]
+    }
+]
