@@ -1,6 +1,7 @@
 [
     {
-        "category_name": "thechnology",
+        "category_name": "laptop",
+        "image": "assets/image/category-image/laptop.png",
         "items": [
             "laptop",
             "television",
@@ -13,6 +14,7 @@
     },
     {
         "category_name": "mobile",
+        "image": "assets/image/category-image/phone.png",
         "items": [
             "apple",
             "samsung",
@@ -25,6 +27,7 @@
     },
     {
         "category_name": "clothes",
+        "image": "assets/image/category-image/clothes.png",
         "items": [
             "T-shirt",
             "pants",
@@ -35,5 +38,17 @@
             "sweashirt",
             "A-shirt"
         ]
+    },
+    {
+        "category_name": "car",
+        "image": "assets/image/category-image/car.png"
+    },
+    {
+        "category_name": "home",
+        "image": "assets/image/category-image/sofa.png"
+    },
+    {
+        "category_name": "book",
+        "image": "assets/image/category-image/book.png"
     }
 ]
