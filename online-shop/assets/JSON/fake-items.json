@@ -1,0 +1,70 @@
+[
+    {
+        "title": "apple watch ultra",
+        "price": 799,
+        "colors": [
+            "#F1691B",
+            "#53564B",
+            "#E6DCD3"
+        ],
+        "image": "assets/image/fake-item-image/apple-watch.jpeg"
+    },
+    {
+        "title": "iphone 14 pro",
+        "price": 999,
+        "colors": [
+            "#3E3D3B",
+            "#F0F2F1",
+            "#F3E7CD",
+            "#584F62"
+        ],
+        "image": "assets/image/fake-item-image/iphone-14-pro.jpeg"
+    },
+    {
+        "title": "macbook pro 14-inch",
+        "price": 1999,
+        "colors": [
+            "#8B8C8E",
+            "#E6E7E9"
+        ],
+        "image": "assets/image/fake-item-image/macbook.jpeg"
+    },
+    {
+        "title": "Letters to Trump",
+        "price": 2,
+        "image": "assets/image/fake-item-image/letters-to-trump.jpg"
+    },
+    {
+        "title": "rich dad poor dad",
+        "price": 5.5,
+        "image": "assets/image/fake-item-image/richdad-poordad.jpg"
+    },
+    {
+        "title": "Sofa Bed/Couch",
+        "price": 267,
+        "colors": [
+            "#8A5749",
+            "#313133",
+            "#615E66"
+        ],
+        "image": "assets/image/fake-item-image/Sofa-Bed-Couch.jpg"
+    },
+    {
+        "title": "Sofa Bed, 4 in 1 Multi-Function",
+        "price": 289,
+        "colors": [
+            "#4E4D4B",
+            "#7C7E80",
+            "#394462",
+            "#787169",
+            "#C1BEAD",
+            "#CE992E"
+        ],
+        "image": "assets/image/fake-item-image/sofa4in1.jpg"
+    },
+    {
+        "title":"Konprosp Twin Size Bed",
+        "price": 159,
+        "image": "assets/image/fake-item-image/twin-size-bed.jpg"
+    }
+]
