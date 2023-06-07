@@ -1,0 +1,101 @@
+<style>
+    #boot_loading {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 999999;
+        overflow: hidden;
+        background-color: #1b63ff;
+    }
+
+    .loader {
+        position: relative;
+        width: 110px;
+        height: 30px;
+        background: #fff;
+        border-radius: 100px;
+    }
+
+    .loader::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: 10px;
+        width: 30px;
+        height: 30px;
+        background: #fff;
+        border-radius: 50%;
+        box-shadow: 40px 0 0 20px #fff;
+    }
+
+    .snow {
+        position: relative;
+        display: flex;
+        z-index: 1;
+    }
+
+    .snow span {
+        position: relative;
+        width: 3px;
+        height: 3px;
+        background: #fff;
+        margin: 0 2px;
+        border-radius: 50%;
+        animation: snowing 5s linear infinite;
+        animation-duration: calc(15s / var(--i));
+        transform-origin: bottom;
+    }
+
+    @keyframes snowing {
+        0% {
+            transform: translateY(0px);
+        }
+
+        70% {
+            transform: translateY(100px) scale(1);
+        }
+
+        100% {
+            transform: translateY(100px) scale(0);
+        }
+    }
+</style>
+
+<div id="boot_loading">
+    <div class="loader">
+        <div class="snow">
+            <span style="--i:11"></span>
+            <span style="--i:12"></span>
+            <span style="--i:15"></span>
+            <span style="--i:17"></span>
+            <span style="--i:18"></span>
+            <span style="--i:13"></span>
+            <span style="--i:14"></span>
+            <span style="--i:19"></span>
+            <span style="--i:20"></span>
+            <span style="--i:10"></span>
+            <span style="--i:18"></span>
+            <span style="--i:13"></span>
+            <span style="--i:14"></span>
+            <span style="--i:19"></span>
+            <span style="--i:20"></span>
+            <span style="--i:10"></span>
+            <span style="--i:18"></span>
+            <span style="--i:13"></span>
+            <span style="--i:14"></span>
+            <span style="--i:19"></span>
+            <span style="--i:20"></span>
+            <span style="--i:10"></span>
+        </div>
+    </div>
+</div>
