@@ -1,0 +1,61 @@
+<title>Loader ...</title>
+
+<style>
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .loader-card {
+        width: 23%;
+        height: 200px;
+        border-radius: 15px;
+        border: 1px solid #256854;
+        margin: 10px;
+        min-height: 200px;
+        min-width: 300px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s;
+        position: relative;
+        opacity: 0.8;
+        border: 4px solid transparent;
+    }
+
+    .main-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-size: cover;
+        background-position: center;
+        opacity: 0.7;
+        transition: all 0.3s;
+        border-radius: 5px;
+    }
+
+    .content {
+        position: absolute;
+        overflow: hidden;
+        border-radius: 5px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        transition: all 0.3s;
+        padding: 10px 5px;
+        text-align: center;
+        color: #fafafa91;
+    }
+</style>
+
+<div class="main-container">
+    <div class="loader-card">
+        <div class="main-image" style="background-image: 'https://amiralirashidi.github.io/loaders/loader-01/loader01.gif';"></div>
+        <div class="content"></div>
+    </div>
+</div>
