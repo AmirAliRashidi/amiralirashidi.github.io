@@ -5,6 +5,13 @@
         margin: 0;
     }
 
+    .header-container {
+        width: 100%;
+        height: 50px;
+        top: 0;
+        position: fixed;
+    }
+
     .main-container {
         width: 100%;
         display: flex;
@@ -13,7 +20,7 @@
         align-content: flex-start;
         background: rgb(2, 0, 36);
         background: linear-gradient(90deg, #007991 0%, #78ffd6 100%);
-        padding: 40px 0;
+        padding: 70px 0;
     }
 
     .loader-card {
@@ -48,8 +55,32 @@
 
     p {
         margin: 0;
+        color: #fff;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        .loader-card {
+            width: 31%;
+        }
+    }
+
+    @media only screen and (max-width: 700px) {
+        .loader-card {
+            width: 47%;
+        }
+    }
+
+    @media only screen and (max-width: 500px) {
+        .loader-card {
+            width: 96%;
+            margin: 2%;
+        }
     }
 </style>
+
+<!-- <header class="header-container">
+    ggfgdgd
+</header> -->
 
 <div class="main-container">
     <div class="loader-card" onclick="gotoPageFUnc('loader-01/')">
@@ -206,6 +237,6 @@
 
 <script>
     function gotoPageFUnc(link) {
-        window.location.replace('https://amiralirashidi.github.io/loaders/' + link);
+        window.location.assign('https://amiralirashidi.github.io/loaders/' + link);
     }
 </script>
