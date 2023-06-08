@@ -1,61 +1,203 @@
 <title>Loader ...</title>
 
 <style>
+    body{
+        margin: 0;
+    }
     .main-container {
         width: 100%;
-        height: 100vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        align-content: flex-start;
+        background: rgb(2, 0, 36);
+        background: linear-gradient(90deg, #007991 0%, #78ffd6 100%);
+        padding: 40px 0;
     }
 
     .loader-card {
         width: 23%;
         height: 200px;
         border-radius: 15px;
-        border: 1px solid #256854;
-        margin: 10px;
-        min-height: 200px;
-        min-width: 300px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: all 0.3s;
-        position: relative;
-        opacity: 0.8;
-        border: 4px solid transparent;
+        border: 1px solid #000000;
+        margin: .9%;
     }
 
     .main-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-size: cover;
-        background-position: center;
-        opacity: 0.7;
-        transition: all 0.3s;
-        border-radius: 5px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: bottom;
+        border-radius: 15px;
     }
 
-    .content {
-        position: absolute;
-        overflow: hidden;
-        border-radius: 5px;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.2);
-        transition: all 0.3s;
-        padding: 10px 5px;
-        text-align: center;
-        color: #fafafa91;
+    .main-text {
+        width: 100%;
+        height: 50px;
+        background-color: #21212150;
+        display: flex;
+        margin-top: -50px;
+        justify-content: center;
+        align-items: center;
+        z-index: 20;
+        position: relative;
+        border-radius: 0 0 15px 15px;
+    }
+
+    p {
+        margin: 0;
     }
 </style>
 
 <div class="main-container">
     <div class="loader-card">
-        <div class="main-image" style="background-image: 'https://amiralirashidi.github.io/loaders/loader-01/loader01.gif';"></div>
-        <div class="content"></div>
+        <img class="main-image" src="./loader-01/loader01.gif">
+        <div class="main-text">
+            <p>loader 1</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-02/loader02.gif">
+        <div class="main-text">
+            <p>loader 2</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-03/loader03.gif">
+        <div class="main-text">
+            <p>loader 3</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-04/loader04.gif">
+        <div class="main-text">
+            <p>loader 4</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-05/loader05.gif">
+        <div class="main-text">
+            <p>loader 5</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-06/loader06.gif">
+        <div class="main-text">
+            <p>loader 6</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-07/loader07.gif">
+        <div class="main-text">
+            <p>loader 7</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-08/loader08.gif">
+        <div class="main-text">
+            <p>loader 8</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-09/loader09.gif">
+        <div class="main-text">
+            <p>loader 9</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-10/loader10.gif">
+        <div class="main-text">
+            <p>loader 10</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-11/loader11.gif">
+        <div class="main-text">
+            <p>loader 11</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-12/loader12.gif">
+        <div class="main-text">
+            <p>loader 12</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-13/loader13.gif">
+        <div class="main-text">
+            <p>loader 13</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-14/loader14.gif">
+        <div class="main-text">
+            <p>loader 14</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-15/loader15.gif">
+        <div class="main-text">
+            <p>loader 15</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-16/loader16.gif">
+        <div class="main-text">
+            <p>loader 16</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-17/loader17.gif">
+        <div class="main-text">
+            <p>loader 17</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-18/loader18.gif">
+        <div class="main-text">
+            <p>loader 18</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-19/loader19.gif">
+        <div class="main-text">
+            <p>loader 19</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-20/loader20.gif">
+        <div class="main-text">
+            <p>loader 20</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-21/loader21.gif">
+        <div class="main-text">
+            <p>loader 21</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-22/loader22.gif">
+        <div class="main-text">
+            <p>loader 22</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-23/loader23.gif">
+        <div class="main-text">
+            <p>loader 23</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-24/loader24.gif">
+        <div class="main-text">
+            <p>loader 24</p>
+        </div>
+    </div>
+    <div class="loader-card">
+        <img class="main-image" src="./loader-25/loader25.gif">
+        <div class="main-text">
+            <p>loader 25</p>
+        </div>
     </div>
 </div>
