@@ -1,0 +1,100 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Introduction to Computer Science",
+      "instructor": {
+        "name": "John Smith",
+        "email": "john.smith@example.com"
+      },
+      "description": "This course provides an introduction to computer science and programming, with an emphasis on problem solving and algorithm development.",
+      "duration": "8 weeks",
+      "level": "Beginner",
+      "num_students": 1000,
+      "price": 50,
+      "rating": 4.5,
+      "tags": [
+        {
+          "name": "Programming",
+          "description": "Learn programming basics"
+        },
+        {
+          "name": "Computer Science",
+          "description": "Introduction to computer science"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Web Development",
+      "instructor": {
+        "name": "Jane Doe",
+        "email": "jane.doe@example.com"
+      },
+      "description": "In this course, you will learn how to build web applications using HTML, CSS, and JavaScript.",
+      "duration": "12 weeks",
+      "level": "Intermediate",
+      "num_students": 500,
+      "price": 75,
+      "rating": 4.2,
+      "tags": [
+        {
+          "name": "Web Development",
+          "description": "Building web applications"
+        },
+        {
+          "name": "Front-end",
+          "description": "Developing front-end skills"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Data Science",
+      "instructor": {
+        "name": "Mike Johnson",
+        "email": "mike.johnson@example.com"
+      },
+      "description": "This course teaches the fundamentals of data science, including data visualization, statistical analysis, and machine learning.",
+      "duration": "16 weeks",
+      "level": "Advanced",
+      "num_students": 250,
+      "price": 100,
+      "rating": 4.8,
+      "tags": [
+        {
+          "name": "Data Science",
+          "description": "Fundamentals of data science"
+        },
+        {
+          "name": "Machine Learning",
+          "description": "Introduction to machine learning"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Python for Data Science",
+      "instructor": {
+        "name": "Sarah Lee",
+        "email": "sarah.lee@example.com"
+      },
+      "description": "This course teaches Python programming for data science, including data cleaning, visualization, and analysis.",
+      "duration": "10 weeks",
+      "level": "Intermediate",
+      "num_students": 300,
+      "price": 90,
+      "rating": 4.6,
+      "tags": [
+        {
+          "name": "Python",
+          "description": "Learn Python programming"
+        },
+        {
+          "name": "Data Science",
+          "description": "Fundamentals of data science"
+        }
+      ]
+    }
+  ]
+}
