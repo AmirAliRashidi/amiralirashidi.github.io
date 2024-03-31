@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "color": "#097949"
+  },
+  {
+    "id": "2",
+    "color": "#c4c4c0"
+  },
+  {
+    "id": "3",
+    "color": "#767676"
+  },
+  {
+    "id": "4",
+    "color": "none"
+  },
+  {
+    "id": "5",
+    "color": "#000000"
+  },
+  {
+    "id": "6",
+    "color": "url(#linearGradient8403)"
+  },
+  {
+    "id": "7",
+    "color": "url(#linearGradient8428)"
+  },
+  {
+    "id": "8",
+    "color": "url(#linearGradient8432)"
+  },
+  {
+    "id": "9",
+    "color": "url(#linearGradient8399)"
+  },
+  {
+    "id": "10",
+    "color": "#363636"
+  },
+  {
+    "id": "11",
+    "color": "#474747"
+  },
+  {
+    "id": "12",
+    "color": "#ababab"
+  },
+  {
+    "id": "13",
+    "color": "#2e2e2e"
+  },
+  {
+    "id": "14",
+    "color": "#4f4f4f"
+  },
+  {
+    "id": "15",
+    "color": "#9a9a9a"
+  },
+  {
+    "id": "16",
+    "color": "#2b2b2b"
+  },
+  {
+    "id": "17",
+    "color": "#ffd187"
+  },
+  {
+    "id": "18",
+    "color": "#fe9d00"
+  },
+  {
+    "id": "19",
+    "color": "#a56600"
+  },
+  {
+    "id": "20",
+    "color": "#d6d6d6"
+  },
+  {
+    "id": "21",
+    "color": "#be9906"
+  },
+  {
+    "id": "22",
+    "color": "#929292"
+  },
+  {
+    "id": "23",
+    "color": "#d4d4d4"
+  },
+  {
+    "id": "24",
+    "color": "#ececec"
+  },
+  {
+    "id": "25",
+    "color": "#eaeaea"
+  }
+]
